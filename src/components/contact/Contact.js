@@ -26,7 +26,7 @@ const Contact = () => {
       setErrMsg("El nombre es requerido");
     } else if (email === "") {
       setErrMsg("El email es requerido");
-    } else if (!emailValidation(email)) {
+    } else if (!emailValidation()) {
       setErrMsg("Se requiere un email válido");
     } else if (subject === "") {
       setErrMsg("El asunto es requerido");
