@@ -30,7 +30,7 @@ const Projects = () => {
         <ProjectsCard
           title="Proyecto TMDB"
           des="En este proyecto individual de una semana, hice un sitio para listar películas desde la API de TMDB, y que el usuario logueado pueda agregarlas a su lista de favoritos."
-          githubLink="https://github.com/alba-97/26-checkpoint-TMDB"
+          githubLink="https://github.com/alba-97/tmdb-solo-week"
           src={projectThree}
         />
       </div>
