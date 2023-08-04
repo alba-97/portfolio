@@ -33,29 +33,29 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-0">
         <h2 className="text-base uppercase font-titleFont mb-4">Contactame</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <a
-              href="https://github.com/alba-97"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          <a
+            href="https://github.com/alba-97"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
               <SiGithub />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a href="mailto:alvarezbasilio97@gmail.com">
+            </span>
+          </a>
+          <a href="mailto:alvarezbasilio97@gmail.com">
+            <span className="bannerIcon">
               <SiGmail />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a
-              href="https://www.linkedin.com/in/alvarezbasilio97/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/alvarezbasilio97/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
               <FaLinkedinIn />
-            </a>
-          </span>
+            </span>
+          </a>
         </div>
       </div>
     </div>
