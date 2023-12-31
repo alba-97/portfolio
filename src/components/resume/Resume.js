@@ -2,18 +2,16 @@ import React, { useState } from "react";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
+import { useTranslation } from "react-i18next";
 
 const Resume = () => {
+  const { t } = useTranslation();
   const [educationData, setEducationData] = useState(true);
   const [skillData, setSkillData] = useState(false);
   const [experienceData, setExperienceData] = useState(false);
   return (
     <section id="resume" className="w-full border-b-[1px] border-b-black">
-      <div className="flex justify-center items-center text-center py-5">
-        <h3 className="text-base text-designColor font-thin">
-          Actualmente trabajando en ScaleMote
-        </h3>
-      </div>
+      <div className="flex justify-center items-center text-center py-5"></div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3">
           <li
@@ -28,7 +26,7 @@ const Resume = () => {
                 : "border-transparent"
             } resumeLi`}
           >
-            Educación
+            {t("education")}
           </li>
           <li
             onClick={() =>
@@ -40,7 +38,7 @@ const Resume = () => {
               skillData ? "border-designColor rounded-lg" : "border-transparent"
             } resumeLi`}
           >
-            Competencias
+            {t("skills")}
           </li>
           <li
             onClick={() =>
@@ -54,7 +52,7 @@ const Resume = () => {
                 : "border-transparent"
             } resumeLi`}
           >
-            Experiencia laboral
+            {t("workExperience")}
           </li>
         </ul>
       </div>

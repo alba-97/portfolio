@@ -1,11 +1,15 @@
 import React from "react";
 import { FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiGithub, SiGmail } from "react-icons/si";
+import { useTranslation } from "react-i18next";
 const Media = () => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
       <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">Contactame</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4">
+          {t("contactme")}
+        </h2>
         <div className="flex gap-4">
           <a
             href="https://github.com/alba-97"
@@ -34,7 +38,7 @@ const Media = () => {
       </div>
       <div>
         <h2 className="text-base uppercase font-titleFont mb-4">
-          STACK DE TECNOLOGÍAS
+          {t("techstack")}
         </h2>
         <div className="flex gap-4">
           <a

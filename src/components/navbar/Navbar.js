@@ -1,14 +1,37 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import {  FaLinkedinIn } from "react-icons/fa";
-import { SiGithub,SiGmail } from "react-icons/si";
-import {logo} from "../../assets/index"
-import { navLinksdata } from '../../constants';
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiGithub, SiGmail } from "react-icons/si";
+import { logo } from "../../assets/index";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const { t } = useTranslation();
+  const [showMenu, setShowMenu] = useState(false);
+  const navLinksdata = [
+    {
+      _id: 1,
+      title: t("home"),
+      link: "home",
+    },
+    {
+      _id: 2,
+      title: t("projects"),
+      link: "projects",
+    },
+    {
+      _id: 3,
+      title: "CV",
+      link: "resume",
+    },
+    {
+      _id: 4,
+      title: t("contact"),
+      link: "contact",
+    },
+  ];
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
@@ -46,7 +69,10 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                "I am a passionate MERN stack developer and machine learning enthusiast. With a strong foundation in web development and a keen eye for data, I create innovative solutions that bridge technology and user experience."
+                  "I am a passionate MERN stack developer and machine learning
+                  enthusiast. With a strong foundation in web development and a
+                  keen eye for data, I create innovative solutions that bridge
+                  technology and user experience."
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -97,6 +123,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
