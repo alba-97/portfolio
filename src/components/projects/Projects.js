@@ -20,7 +20,7 @@ const Projects = () => {
           des={t("mobilegearDesc")}
           src={projectOne}
           githubLink="https://github.com/alba-97/mobile_gear_front"
-          websiteLink="https://mobile-gear-zuxz.onrender.com/"
+          websiteLink="https://mobilegear.netlify.app/"
         />
         <ProjectsCard
           title="El club del plan"
