@@ -24,15 +24,15 @@ const Contact = () => {
   const handleSend = async (e) => {
     e.preventDefault();
     if (username === "") {
-      setErrMsg("El nombre es requerido");
+      setErrMsg(t("nameErrorMsg"));
     } else if (email === "") {
-      setErrMsg("El email es requerido");
+      setErrMsg(t("emailErrorMsg"));
     } else if (!emailValidation()) {
-      setErrMsg("Se requiere un email válido");
+      setErrMsg(t("emailErrorMsg2"));
     } else if (subject === "") {
-      setErrMsg("El asunto es requerido");
+      setErrMsg(t("subjectErrorMsg"));
     } else if (message === "") {
-      setErrMsg("El mensaje es requerido");
+      setErrMsg(t("messageErrorMsg"));
     } else {
       await axios.post("https://formspree.io/f/xpzgqpvo", {
         email,
@@ -41,9 +41,7 @@ const Contact = () => {
         subject,
         phoneNumber,
       });
-      setSuccessMsg(
-        `¡Muchas gracias, ${username}! Tu mensaje se envió correctamente.`
-      );
+      setSuccessMsg(`${t("success1")} ${username}! ${t("success2")}`);
       setErrMsg("");
       setUsername("");
       setPhoneNumber("");
@@ -84,8 +82,7 @@ const Contact = () => {
                     onChange={(e) => setUsername(e.target.value)}
                     value={username}
                     className={`${
-                      errMsg === "Username is required!" &&
-                      "outline-designColor"
+                      errMsg === t("nameErrorMsg") && "outline-designColor"
                     } contactInput`}
                     type="text"
                   />
@@ -98,8 +95,7 @@ const Contact = () => {
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     value={phoneNumber}
                     className={`${
-                      errMsg === "El teléfono es requerido" &&
-                      "outline-designColor"
+                      errMsg === t("phoneErrorMsg") && "outline-designColor"
                     } contactInput`}
                     type="text"
                   />
@@ -113,7 +109,9 @@ const Contact = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
                   className={`${
-                    errMsg === "El email es requerido" && "outline-designColor"
+                    [t("emailErrorMsg"), t("emailErrorMsg2")].includes(
+                      errMsg
+                    ) && "outline-designColor"
                   } contactInput`}
                   type="email"
                 />
@@ -126,7 +124,7 @@ const Contact = () => {
                   onChange={(e) => setSubject(e.target.value)}
                   value={subject}
                   className={`${
-                    errMsg === "El asunto es requerido" && "outline-designColor"
+                    errMsg === t("subjectErrorMsg") && "outline-designColor"
                   } contactInput`}
                   type="text"
                 />
@@ -139,8 +137,7 @@ const Contact = () => {
                   onChange={(e) => setMessage(e.target.value)}
                   value={message}
                   className={`${
-                    errMsg === "El mensaje es requerido" &&
-                    "outline-designColor"
+                    errMsg === t("messageErrorMsg") && "outline-designColor"
                   } contactTextArea`}
                   cols="30"
                   rows="8"

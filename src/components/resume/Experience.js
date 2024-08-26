@@ -17,9 +17,15 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+            title={t("biggerDeveloperTitle")}
+            subTitle="Bigger"
+            result="2023-2024"
+            des={t("biggerDeveloperDesc")}
+          />
+          <ResumeCard
             title={t("sound_technician")}
             subTitle="OH! Discos"
-            result="2020-2022"
+            result="2020-2023"
             des={t("sound_technician_desc")}
           />
           <ResumeCard

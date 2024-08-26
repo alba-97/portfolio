@@ -67,6 +67,20 @@ i18n
             "Did the programming of a web game using HTML5 with the Phaser.js library",
           web_developer:
             "Made an e-commerce website for the customization and sale of cell phone cases.",
+          success1: "Thank you very much,",
+          success2: "! Your message was sent successfully.",
+          nameErrorMsg: "The name is required",
+          emailErrorMsg: "Email is required",
+          emailErrorMsg2: "A valid email is required",
+          subjectErrorMsg: "Subject is required",
+          messageErrorMsg: "The message is required",
+          biggerDeveloperTitle: "Web Developer",
+          biggerDeveloperDesc:
+            "Development of custom web applications for a variety of corporate clients.",
+          dlpManagerDesc:
+            "Project for a post-construction management platform that allows property owners and managers to report defects.",
+          axeesDesc:
+            "Project for a marketplace platform connecting brands and influencers.",
         },
       },
       es: {
@@ -123,6 +137,21 @@ i18n
             "Programación de un juego web usando tecnologías HTML5 y la librería Phaser.js",
           web_developer:
             "Desarrollo de un sitio e-commerce para la personalización y venta de carcasas de celulares.",
+
+          success1: "¡Muchas gracias,",
+          success2: "! Tu mensaje se envió correctamente.",
+          nameErrorMsg: "El nombre es requerido",
+          emailErrorMsg: "El email es requerido",
+          emailErrorMsg2: "Se requiere un email válido",
+          subjectErrorMsg: "El asunto es requerido",
+          messageErrorMsg: "El mensaje es requerido",
+          biggerDeveloperTitle: "Programador Web",
+          biggerDeveloperDesc:
+            "Desarrollo de aplicaciones web personalizadas para una variedad de clientes corporativos.",
+          dlpManagerDesc:
+            "Proyecto para una plataforma de gestión post-construcción que permite a propietarios y administradores de propiedades informar sobre un defecto.",
+          axeesDesc:
+            "Proyecto para una plataforma de marketplace entre marcas e influencers",
         },
       },
     },
