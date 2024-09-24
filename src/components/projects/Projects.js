@@ -25,13 +25,13 @@ const Projects = () => {
           title={"DLP Manager"}
           des={t("dlpManagerDesc")}
           src={projectFive}
-          websiteLink="https://mobilegear.netlify.app/"
+          websiteLink="https://dlpmanager.com/"
         />
         <ProjectsCard
           title="Axees"
           des={t("axeesDesc")}
           src={projectFour}
-          websiteLink="https://mobilegear.netlify.app/"
+          websiteLink="https://axees.io/"
         />
         <ProjectsCard
           title="Mobile Gear"
