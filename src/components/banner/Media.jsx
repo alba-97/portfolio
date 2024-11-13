@@ -26,7 +26,7 @@ const Media = () => {
             </span>
           </a>
           <a
-            href="https://www.linkedin.com/in/alvarezbasilio97/"
+            href="https://www.linkedin.com/in/basilio-álvarez/"
             target="_blank"
             rel="noopener noreferrer"
           >

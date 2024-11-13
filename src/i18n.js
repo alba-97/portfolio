@@ -26,7 +26,7 @@ i18n
           subtitle3: "Art & Design Enthusiast.",
           subtitle4: "Passionate about AI.",
           description:
-            "I am a web developer with experience in the MERN stack. My interest in computing led me to begin a career as a Systems Analyst, and today I continue learning new technologies to create functional and easy-to-use applications.",
+            "I am a full-stack developer with experience in the MERN stack. My interest in computing led me to begin a career as a Systems Analyst, and today I keep on building functional and scalable web applications using modern technologies such as React, Node.js, Express, Nest.js, MongoDB, and PostgreSQL.",
           contactme: "CONTACT ME",
           techstack: "TECH STACK",
           education: "Education",
@@ -39,7 +39,7 @@ i18n
           mobilegearDesc:
             "In 2 weekly sprints, we developed an e-commerce site for the sale of cell phones, tablets and accessories. This projects uses PostgreSQL, Express, React, and Node.js.",
           description2:
-            "I am a web developer with experience in the MERN stack. I really enjoy the process of creating engaging web experiences that combine good functionality and attractive design.",
+            "I am a developer with experience in the MERN stack. I really enjoy the process of creating engaging web experiences that combine good functionality and attractive design.",
           copyright: "All rights reserved",
           send: "Send",
           name: "Name",
@@ -60,13 +60,13 @@ i18n
           design_desc:
             "We learned the basics of design for the creation and presentation of a new product.",
           sena: "National Learning Service",
-          sound_technician: "Sound technician",
+          sound_technician: "Graphic Designer",
           sound_technician_desc:
-            "Music recording of 60+ minutes, data storage on 400+ CDs, and front and back design of the packages to be sold.",
+            "Designed packaging materials and visual assets for a variety of musical products, including CDs, vinyl covers, and promotional merchandise.",
           game_dev:
-            "Did the programming of a web game using HTML5 with the Phaser.js library",
+            "Developed interactive web games using HTML5 and Phaser.js library.",
           web_developer:
-            "Made an e-commerce website for the customization and sale of cell phone cases.",
+            "Built a custom e-commerce site from scratch using WordPress and WooCommerce, focusing on the sale and customization of cell phone cases.",
           success1: "Thank you very much,",
           success2: "! Your message was sent successfully.",
           nameErrorMsg: "The name is required",
@@ -74,9 +74,9 @@ i18n
           emailErrorMsg2: "A valid email is required",
           subjectErrorMsg: "Subject is required",
           messageErrorMsg: "The message is required",
-          biggerDeveloperTitle: "Web Developer",
+          biggerDeveloperTitle: "Full-Stack Developer",
           biggerDeveloperDesc:
-            "Development of custom web applications for a variety of corporate clients.",
+            "Developed and maintained custom web applications for diverse corporate clients, utilizing Nest.js, React, Node.js, and PostgreSQL.",
           dlpManagerDesc:
             "Project for a post-construction management platform that allows property owners and managers to report defects.",
           axeesDesc:
@@ -95,7 +95,7 @@ i18n
           subtitle3: "Entusiasta de arte y diseño.",
           subtitle4: "Apasionado por la IA.",
           description:
-            "Soy desarrollador de aplicaciones web con experiencia en el stack MERN. Mi interés por la computación me llevó a comenzar la carrera de Analista de Sistemas, y hoy en día sigo aprendiendo nuevas tecnologías para crear aplicaciones funcionales y fáciles de usar.",
+            "Soy un desarrollador full-stack con experiencia en el stack MERN. Mi interés en la computación me llevó a iniciar una carrera como Analista de Sistemas, y hoy en día sigo construyendo aplicaciones web funcionales y escalables utilizando tecnologías modernas como React, Node.js, Express, Nest.js, MongoDB y PostgreSQL.",
           contactme: "CONTACTAME",
           techstack: "STACK DE TECNOLOGÍAS",
           education: "Educación",
@@ -108,7 +108,7 @@ i18n
           mobilegearDesc:
             "En 2 sprints semanales desarrollamos un sitio e-commerce para la venta de celulares, tablets y accesorios. Este proyecto utiliza PostgreSQL, Express, React y Node.js.",
           description2:
-            "Soy un desarrollador web con experiencia en el stack MERN. Disfruto mucho el proceso de crear experiencias web cautivadoras que combinan buena funcionalidad y diseño atractivo.",
+            "Soy desarrollador con experiencia en el stack MERN. Disfruto mucho el proceso de crear experiencias web cautivadoras que combinan buena funcionalidad y diseño atractivo.",
           copyright: "Todos los derechos reservados",
           send: "Enviar",
           name: "Nombre",
@@ -130,13 +130,13 @@ i18n
           design_desc:
             "Aprendimos bases de diseño para la creación y presentación de un nuevo producto.",
           sena: "Servicio Nacional de Aprendizaje",
-          sound_technician: "Técnico de sonido",
+          sound_technician: "Diseñador Gráfico",
           sound_technician_desc:
-            "Grabación de música de 60+ minutos, almacenamiento de datos en 400+ CDs, y diseño frontal y trasero de las cajas a vender.",
+            "•Diseñé para una variedad de productos musicales, incluyendo CDs, portadas de vinilos y mercancía promocional.",
           game_dev:
-            "Programación de un juego web usando tecnologías HTML5 y la librería Phaser.js",
+            "Desarrollé juegos web interactivos utilizando HTML5 y la librería Phaser.js.",
           web_developer:
-            "Desarrollo de un sitio e-commerce para la personalización y venta de carcasas de celulares.",
+            "Construí un sitio de comercio electrónico personalizado desde cero utilizando WordPress y WooCommerce, enfocado en la venta y personalización de fundas para teléfonos móviles.",
 
           success1: "¡Muchas gracias,",
           success2: "! Tu mensaje se envió correctamente.",
@@ -145,9 +145,9 @@ i18n
           emailErrorMsg2: "Se requiere un email válido",
           subjectErrorMsg: "El asunto es requerido",
           messageErrorMsg: "El mensaje es requerido",
-          biggerDeveloperTitle: "Programador Web",
+          biggerDeveloperTitle: "Full-Stack Developer",
           biggerDeveloperDesc:
-            "Desarrollo de aplicaciones web personalizadas para una variedad de clientes corporativos.",
+            "Desarrollé y mantuve aplicaciones web personalizadas para diversos clientes, utilizando Nest.js, React, Node.js, PostgreSQL y MongoDB.",
           dlpManagerDesc:
             "Proyecto para una plataforma de gestión post-construcción que permite a propietarios y administradores de propiedades informar sobre un defecto.",
           axeesDesc:

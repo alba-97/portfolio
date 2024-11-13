@@ -23,22 +23,22 @@ const Experience = () => {
             des={t("biggerDeveloperDesc")}
           />
           <ResumeCard
-            title={t("sound_technician")}
-            subTitle="OH! Discos"
-            result="2020-2023"
-            des={t("sound_technician_desc")}
-          />
-          <ResumeCard
             title="Game Developer"
             subTitle="Livemedia Digital Agency"
-            result="2019"
+            result="2022"
             des={t("game_dev")}
           />
           <ResumeCard
             title="Web Developer"
             subTitle="TX Tijuana"
-            result="2019"
+            result="2021"
             des={t("web_developer")}
+          />
+          <ResumeCard
+            title={t("sound_technician")}
+            subTitle="OH! Discos"
+            result="2020-2021"
+            des={t("sound_technician_desc")}
           />
         </div>
       </div>
