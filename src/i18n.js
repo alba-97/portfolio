@@ -52,9 +52,9 @@ i18n
           tecnicatura: "Systems Analyst Technician",
           isft: "Higher Institute of Technical Training n° 132",
           bootcamp: "Intensive bootcamp of 4 months and 10 hours per day.",
-          sistemas_multimediales: "Multimedia Systems Programming",
+          sistemas_multimediales: "Web Programming",
           sistemas_multimediales_desc:
-            "We developed a website for the school, and also the repair and maintenance of computers and networks.",
+            "Basics of web development by creating a complete website for a school, using WordPress.",
           cfp: "Professional training center n° 401",
           design: "Basics of Design",
           design_desc:
@@ -121,9 +121,9 @@ i18n
           tecnicatura: "Tecnicatura en Análisis de Sistemas.",
           isft: "Instituto Superior de Formación Técnica n° 132",
           bootcamp: "Bootcamp intensivo de 4 meses y 10 horas por día.",
-          sistemas_multimediales: "Programación de Sistemas Multimediales",
+          sistemas_multimediales: "Programación Web",
           sistemas_multimediales_desc:
-            "Desarrollamos un sitio web para la escuela, e hicimos reparación y mantenimiento de redes y computadoras.",
+            "Conceptos básicos de desarrollo web mediante la creación de un sitio web completo para una escuela utilizando WordPress.",
           cfp: "Centro de Formación Profesional n° 401",
 
           design: "Fundamentos del Diseño",
